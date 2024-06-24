@@ -29,6 +29,7 @@ namespace Vinchuca.Workers
                         if (any) scheduledAction = _actions[0];
                     }
 
+                    // NOTE: Throtteling | Schedule execution
                     TimeSpan timeToWait;
                     if (any)
                     {
